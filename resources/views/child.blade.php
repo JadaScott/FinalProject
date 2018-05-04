@@ -30,8 +30,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/">HOME</a></li>
-        <li><a href="/store">STORE</a></li>
-         <li><a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
+        <li><a href="store">STORE</a></li>
+         <li><a href="cart"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
                                         <br class="">
                                 </form>
                             </div>
@@ -53,8 +53,13 @@
 
 
 <div class="container">
-	<h2>Thanks for your order!</h2>
-	<p>You will receive an email confirmation shortly.</p>
+<p>This is my body content.</p>
+    <form method="POST" action="jibs">
+      {{ csrf_field ()}}
+      <input type="email" name="email">
+      <textarea name="comment"></textarea>
+      <input type="submit" value="Submit">
+    </form>
 
 	
 </div>
@@ -101,7 +106,7 @@
                     </div>
                
      <div class="modal-footer">
-        <a href="admin"><button type="submit" class="btn btn-default" >LOGIN</button></a>
+        <a href="/admin"><button type="submit" class="btn btn-default" >LOGIN</button></a>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>

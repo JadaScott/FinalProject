@@ -32,8 +32,8 @@
       <ul class="nav navbar-nav navbar-right">
 
         <li><a href="/">HOME</a></li>
-        <li><a href="store">STORE</a></li>
-         <li><a href="cart"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
+        <li><a href="/store">STORE</a></li>
+         <li><a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
                                         <br class="">
                                 </form>
                             </div>

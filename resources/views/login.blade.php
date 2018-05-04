@@ -29,9 +29,9 @@ el="shortcut icon" href="img/favicon.png" />
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.php">HOME</a></li>
-        <li><a href="store.php">STORE</a></li>
-         <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/store">STORE</a></li>
+         <li><a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span>CART</a></li>
                                         <br class="">
                                 </form>
                             </div>
